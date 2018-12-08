@@ -1,0 +1,9 @@
+correct email
+samanalishiri@gmail.com,
+samana.lishiri@gmail.com.
+samana_lishiri@gmail.com
+'samana-lishiri@gmail.com'
+wrong email
+saman_alishiri@gmailcom.
+saman%alishiri@gmailcom 56
+samanalishiri@gmail.com2 abc
