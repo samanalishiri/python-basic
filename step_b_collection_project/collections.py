@@ -7,6 +7,10 @@ class List:
     def append(self, e):
         self._elements.append(e)
 
+    def remove(self, e):
+        if e in self._elements:
+            self._elements.remove(e)
+
     def sort(self, key=None):
         if key is None:
             self._sort_elements = sorted(self._elements, key=lambda e: e)

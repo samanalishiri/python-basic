@@ -11,6 +11,7 @@ class Console:
         self.commands = dict({
             'help': self.help,
             'append': self.append,
+            'remove': self.remove,
             'sort': self.sort,
             'origin': self.origin,
             'exit': self.end,
@@ -32,6 +33,19 @@ class Console:
                 print('end of append')
                 append = False
 
+    def remove(self):
+        remove = True
+        self.print_message('enter number or sequence of number with comma separate')
+        while remove:
+            value = input(Console.START_LINE)
+            try:
+                array = value.split(',')
+                for n in array:
+                    self.collection_list.remove(int(n))
+            except ValueError:
+                print('end of remove')
+                remove = False
+
     def sort(self):
         self.collection_list.sort()
         print(self.collection_list.sorted())
@@ -49,7 +63,10 @@ class Console:
     def execute(self):
         self.print_message('enter command, help')
         while self.life:
-            self.commands[input('-> ')]()
+            try:
+               self.commands[input('-> ')]()
+            except Exception:
+                print('invalid command!')
 
 
 if __name__ == '__main__':
