@@ -5,7 +5,7 @@
 
 ## steps
 ###### step a: basic
-    include data structure, file and string process.
+    Include data structure, file and string process.
 ###### step b: collection project
     It's a practical project for work with collection in console mod.
 ###### step c: networking
