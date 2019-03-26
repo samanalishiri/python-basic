@@ -1,4 +1,4 @@
-from bsteptwo.collections import List
+from step_b_collection_project.collections import List
 
 
 class Console:

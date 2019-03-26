@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-import astepone.utils.date as date
+import step_a_basic.utils.date as date
 
 
 class DateTest(TestCase):

@@ -14,5 +14,5 @@ class FilterList:
         return list(filter(self.__filter_method, self.__collection))
 
 
-def event_number(n):
+def event_number_filter(n):
     return True if n % 2 == 0 else False

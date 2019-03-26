@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from astepone.datastructure.queue import PriorityQueue
+from step_a_basic.datastructure.queue import PriorityQueue
 
 
 class QueueTest(TestCase):

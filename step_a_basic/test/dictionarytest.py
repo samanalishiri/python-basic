@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from astepone.datastructure.dictionarylist import DictionaryList
+from step_a_basic.datastructure.dictionarylist import DictionaryList
 
 
 class DictionaryTest(TestCase):

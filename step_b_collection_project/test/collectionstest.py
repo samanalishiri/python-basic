@@ -1,4 +1,4 @@
-from bsteptwo.collections import List
+from step_b_collection_project.collections import List
 
 array = [1, 2, 9, 5, 7, 6, 3, 8, 4]
 collection = List(array)

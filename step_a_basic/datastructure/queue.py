@@ -17,7 +17,7 @@ class PriorityQueue:
     def pop(self):
         return heapq.heappop(self.__queue)[-1]
 
-    def empty(self):
+    def isempty(self):
         return len(self.__queue) < 1
 
     def print(self):

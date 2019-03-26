@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from astepone.datastructure.chainmap import Chain
+from step_a_basic.datastructure.chainmap import Chain
 
 
 class ChainMapTest(TestCase):
